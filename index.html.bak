@@ -8,12 +8,12 @@
 <body>
 	<div id="mainpage">
 		<div id="frame">
-			
+
 			<div id="header">
-				<a href="" id="logo">
+				<a href="./index.html" id="logo">
 					<span class="nodisplay">凝动夕阳 | 凝聚智慧力量，定焦最美夕阳
 				</a>
-				<a href="" id="dwblogo">
+				<a href="./index.html" id="dwblogo">
 					<span class="nodisplay">大学生黑苹果团队</span>
 				</a>
 				<form method="get" id="searchform" action="">
@@ -22,22 +22,22 @@
 				</form>
 				<hr>
 				<ul id="mainmenu" class="dropdown dropdown-horizontal">
-					<li><a href="" class="home">首页 Home</a></li>
-					<li><a href="" class="about">关于 About</a></li>
-					<li><a href="" class="blog">博客 Blog</a></li>
-					<li><a href="" class="event">活动 Events</a></li>
-					<li><a href="" class="contact">联系 Contact</a></li>
-					<li><a href="" class="join">加入我们 Join Us</a></li>
+					<li><a href="./index.html" class="home">首页 Home</a></li>
+					<li><a href="./about.html" class="about">关于 About</a></li>
+					<li><a href="./blog.html" class="blog">博客 Blog</a></li>
+					<li><a href="./event.html" class="event">活动 Events</a></li>
+					<li><a href="./contact.html" class="contact">联系 Contact</a></li>
+					<li><a href="./join.html" class="join">加入我们 Join Us</a></li>
 
 				</ul>
 
 			</div>
 			<!-- #header -->
-			
+
 			<div id="content">
 				<div id="left" class="intro">
 					<div id="photobig">
-						<img src="assets/images/project.jpg" title="第一次项目考察" width="642" height="318" alt="2012 summer home"> 
+						<img src="assets/images/project.jpg" title="第一次项目考察" width="642" height="318" alt="2012 summer home">
 					</div>
 					<h1><span>欢迎回家！</span></h1>
 					<p>“凝动夕阳”项目是在由 <strong><a title="零点公益集团" href="" target="_blank">零点公益集团</a></strong>组织的“黑苹果青年-冬雪会”武汉站上所产生的团队目前现由来自武汉各高校的优秀大学生及部分白领组成。本项目根据现今社会发展状况，关注社会的弱势群体，特别针对农村的空巢老人，城市的五保老人。在科技发展的今天，借用科技的力量，并调动身边所有人的小力量，为每个老年人无偿拍摄一张最美的微笑照片，记录下他们美的瞬间。同时还有一个大家不可回避的问题，就是部分老人的遗像问题。 <a href=""><br />
@@ -120,9 +120,9 @@
 								所在目录  <a href="#">凝智慧</a>, <a href="#"> 最新消息</a>，<a href="#"> 凝行动</a>
 							</p>
 						</div>
-						
+
 						<div class="box weibo">
-							<iframe width="100%" height="320" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=320&fansRow=2&ptype=0&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=2639631184&verifier=f79d3d21&dpc=1"></iframe>
+							<iframe width="100%" height="320" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.html?language=&width=0&height=320&fansRow=2&ptype=0&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=2639631184&verifier=f79d3d21&dpc=1"></iframe>
 						</div>
 						<br clear="all">
 					</div>
@@ -131,7 +131,7 @@
 				<div class="clear"></div>
 			</div>
 			<!-- #content -->
-			
+
 			<div id="footer">
 				<hr>
 				<p style="float:left;">
@@ -140,7 +140,7 @@
 		          | <a href="/ecnews/">博客</a>
 		          | <a href="/come-join/ways-to-join/">活动</a>
 		          | <a href="/get-inspired/impressions-a-la-carte/">联系</a>
-		          | <a href="/events/upcoming-events/">加入我们</a> 
+		          | <a href="/events/upcoming-events/">加入我们</a>
 		      	</p>
 
 		        <p  style="float:right;margin-right:20px">
@@ -154,9 +154,9 @@
 			</div>
 			<!-- #footer -->
 		</div>
-		<!-- #frame -->	
+		<!-- #frame -->
 	</div>
 	<!-- #page -->
-	
+
 </body>
 </html>

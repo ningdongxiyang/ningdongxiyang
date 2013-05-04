@@ -1,0 +1,58 @@
+---
+category: pages
+title: Blog
+ref: blog
+---
+
+{% for post in site.categories.posts limit:3 %}
+{% assign index = forloop.index0 | modulo:6 %}
+{% assign class = '' %}
+{% if index == 0 %}
+{% assign class = ' featured' %}
+{% endif %}
+<article class=' post{{ class }}'>
+  <aside class='meta'>
+    {% for member in site.categories.team %}
+    {% if member.user == post.author %}
+    <span class='vcard'>
+      <span class='fn'>{{ member.title }}</span>
+    </span>
+    {% endif %}
+    {% endfor %}
+
+    <span class='time'>on <time datetime='{{ page.date | xmlschema }}'>{{ post.date | date: '%B %d, %Y' }}</time></span>
+  </aside>
+  
+  <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
+
+  <section>
+    {% if index == 0 %}
+    {{ post.content | strip_html | truncatewords: 100 }} <!-- More words if first post -->
+    {% elsif index > 0 %}
+    {{ post.content | strip_html | truncate words: 11 }}
+    {% endif %}
+  </section>
+</article>
+{% endfor %}
+
+{% for post in site.categories.posts offset:3 %}
+{% assign index = forloop.index0 | modulo:6 %}
+<article class='post'>
+  <aside class='meta'>
+    {% for member in site.categories.team %}
+    {% if member.user == post.author %}
+    <span class='vcard'>
+      <span class='fn'>{{ member.title }}</span>
+    </span>
+    {% endif %}
+    {% endfor %}
+    <span class='time'>on <time datetime='{{ page.date | xmlschema }}'>{{ post.date | date: '%B %d, %Y' }}</time></span>
+  </aside>
+    
+  <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
+    
+  <section>
+    {{ post.content | strip_html | truncatewords: 3 }}
+  </section>
+</article>
+{% endfor %}

@@ -1,0 +1,13 @@
+---
+category: project
+title: Southern Sudan Referendum
+summary: We worked with the IFES and the Sudanese authorities to design, build and deploy several pieces of software central to the 2011 Southern Sudan Referendum. Our team built secure distributed systems to ensure the collection of the votes, from registration to results, and helped visualize the results of millions of voters.
+---
+
+The [IFES](http://ifes.org/) (International Foundation for Electoral Systems) was involved in Sudan for the 201\. Southern Sudan Referendum which was to decide of the independence of Southern Sudan. Working on the ground with the SSRB and SSRC (respectively the Southern Sudan Referendum Bureau and Southern Sudan Referendum Commission), IFES helped plan and implement the collection of data from the referendum centers, from registration to results.
+
+Working directly with the IFES and the referendum authorities, we designed and deployed 3 platforms; 2 data collection applications for both registration and result entries, and [the official results website](http://southernsudan2011.com/).
+
+Both data collection platforms were built with security and accuracy in mind; the complex workflows and data integrity checks that constituted the main part of the system were designed in collaboration with the IFES' staff and were rigorously implemented. Leveraging Drupal's install profile capability, as well as a [Features](http://drupal.org/project/features)based approach, we were able to quickly roll out fresh install of the system after each iteration of the software, ensuring a very smooth validation process. On top of these processes, we crafted a series of high level dashboards, aggregating overviews and details of various metrics allowing technicians and managers to follow trends and . Both Ronan Berder (Managing Director) and Makara Wang (Technical Director) were sent out in Juba, Sudan, to supervise the deployment and proper operation of the systems as well as perform ongoing adjustments while the referendum took place.
+
+[SouthernSudan2011.com](http://southernsudan2011.com/), the official results website, allowed us and the referendum's authorities to periodically update the status of the 2,89\. referendum centers by simply uploading a spreadsheet. Beyond the regular metrics that were calculated through the site and helped us represent distributions and trends, we geolocalized all referendum centers and built map-based visualizations of the votes. Working with [Mapbox](http://mapbox.com/), we received personal support from the [Development Seed](http://developmentseed.com/)who enhanced the level of details for Sudan on their [World Light tileset](http://mapbox.com/tileset/world-light).

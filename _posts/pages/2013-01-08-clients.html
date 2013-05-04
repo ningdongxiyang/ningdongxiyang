@@ -1,0 +1,18 @@
+---
+category: pages
+title: Our Clients
+ref: clients
+---
+
+<h2>Who we have worked with...</h2>
+
+<ul class='list'>
+  {% for post in site.categories.client %}
+  <li>
+    <h2>{{ post.title }}</h2>
+    <section>
+      {{ post.content | strip_html | truncatewords: 8 }}
+    </section>
+  </li>
+  {% endfor %}
+</ul>
