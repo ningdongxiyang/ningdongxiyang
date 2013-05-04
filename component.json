@@ -1,7 +1,0 @@
-{
-    "name": "Wiredcraft",
-    "description": "Wiredcraft.com website",
-    "version": "0.0.1",
-    "local": ["boot"],
-    "paths": ["lib"]
-}
