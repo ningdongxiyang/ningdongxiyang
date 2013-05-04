@@ -90,12 +90,8 @@ a#dwblogo {
   border: 1px solid #B8B8B8;
 }
 
-ul.dropdown {
-  position: relative;
-}
-
 ul#mainmenu {
-  clear: both;
+  /*clear: both;*/
   position: absolute;
   z-index: 100;
   margin-top: 125px;
