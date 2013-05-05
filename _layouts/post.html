@@ -4,24 +4,6 @@ layout: default
 
 
 <!-- Post Date & Author Info -->
-<aside class='meta'>
-  <time datetime='{{ page.date | xmlschema }}'>{{ page.date | date: '%B %d, %Y' }}</time>
-  {% for member in site.categories.team %}
-  {% if member.user == page.author %}
-  <span class='vcard'>
-    <span class='fn'>{{ member.title }}</span>
-  </span>
-  {% endif %}
-  {% endfor %}
-</aside>
-
-<aside class='social'>
-  <!-- Twitter Buttons Here -->  
-  <p class='twitter'><a rel='{{ site.url }}{{ page.url }}' href='https://twitter.com/intent/tweet?text=@wiredcraft%20&related=wiredcraft&url={{ site.url }}{{ page.url }}' target='_blank'>Tweet that shit</a></p>
-  
-  <!-- RSS Feed Button Here -->
-  <p class='rss'><a href='{{ site.url }}/atom.xml'>RSS</a></p>
-</section>
 
 <section class='blogentry'>
   <article>
@@ -33,7 +15,6 @@ layout: default
     <nav>
       {% if page.previous %}<a href='{{ site.url }}{{ page.previous.url }}' class='previous'>‹ Previous post</a>{% endif %}
       {% if page.next %}<a href='{{ site.url }}{{ page.next.url }}' class='next'>Next post ›</a>{% endif %}
-      <a href='{{ site.url }}{{ page.url }}'>Permalink</a>
     </nav>
   </article>
 </section>
