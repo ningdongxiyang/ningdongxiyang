@@ -42,13 +42,13 @@ img {
 #frame {
   width: 954px;
   margin: 0 auto;
-  padding: 0 10px;
+  /*padding: 0 10px;*/
   text-align: left;
 }
 
 #header {
   height: 169px;
-  width: 955px;
+  width: 954px;
 }
 
 a#logo {
@@ -95,7 +95,7 @@ ul#mainmenu {
   position: absolute;
   z-index: 100;
   margin-top: 125px;
-  width: 955px;
+  width: 954px;
 }
 
 ul#mainmenu li, ul#mainmenu li a {
@@ -181,8 +181,8 @@ ul#mainmenu li a.join:hover {
 
 #left {
   position: relative;
-  float: left;
   width: 642px;
+  float: left;
 }
 
 #photobig{
@@ -245,8 +245,9 @@ div.intro p a:link, div.intro p a:visited {
 
 #right {
   position: relative;
-  float: right;
+  float: left;
   width: 286px;
+  margin-left: 26px;
 }
 
 .boxpadding, #sidebar {
