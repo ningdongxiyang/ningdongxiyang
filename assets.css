@@ -468,4 +468,21 @@ ul.donates li a:hover {
   color: black;
 }
 
+/*post style*/
+.blogentry {
+  margin: 12px auto;
+}
 
+.blogentry h2 {
+  margin: 12px 0px 12px 0;
+}
+
+.blogentry .tags {
+  margin: 12px 0px 12px 0;
+  font-weight: bold;
+}
+
+.post_content p {
+  font-size: 14px;
+  line-height: 30px;
+}
