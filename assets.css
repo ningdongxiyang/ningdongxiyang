@@ -470,11 +470,11 @@ ul.donates li a:hover {
 
 /*post style*/
 .blogentry {
-  margin: 12px auto;
+  margin: 0px auto;
 }
 
 .blogentry h2 {
-  margin: 12px 0px 12px 0;
+  margin-bottom: 12px;
 }
 
 .blogentry .tags {
@@ -484,8 +484,8 @@ ul.donates li a:hover {
 
 .post_content p {
   font-size: 14px;
-  line-height: 160%;
-  margin-bottom: 14px;
+  line-height: 140%;
+  margin-bottom: 8px;
 }
 
 /* post_lists style */
