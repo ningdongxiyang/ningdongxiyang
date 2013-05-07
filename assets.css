@@ -484,7 +484,8 @@ ul.donates li a:hover {
 
 .post_content p {
   font-size: 14px;
-  line-height: 30px;
+  line-height: 160%;
+  margin-bottom: 14px;
 }
 
 /* post_lists style */
@@ -495,4 +496,10 @@ ul.donates li a:hover {
 
 .post_lists ul li {
   margin: 12px 0;
+}
+
+.post_lists p {
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 8px;
 }
