@@ -486,3 +486,13 @@ ul.donates li a:hover {
   font-size: 14px;
   line-height: 30px;
 }
+
+/* post_lists style */
+
+.post_lists h2 {
+  margin-bottom: 12px;
+}
+
+.post_lists ul li {
+  margin: 12px 0;
+}
